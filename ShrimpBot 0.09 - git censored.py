@@ -88,12 +88,8 @@ async def on_ready():
             await client.send_message(message.author, 'Welcome to my DM Club! use me the same way you do on all the other servers!')
 
         elif message.content.startswith('s:notify'):
-            await client.send_message(message.channel, 'Who do you want to ping? Type !pingwho namehere. Do include the "@" symbol, even if it makes this command absolutely useless.')
-            def check(msg):
-                return msg.content.startswith('s:pingwho')
-            message = await client.wait_for_message(author=message.author, check=check)
-            name = message.content[len('$pingwho'):].strip()
-            await client.send_message(message.channel, '{}, somebody needs you!'.format(name))
+            notifyname = message.content[len('$$notify'):].strip()
+            await client.send_message(message.channel, '{}, someone needs you!'.format(notifyname))
 
         elif message.content.startswith('s:getpins'):
             counter = 0
@@ -150,5 +146,6 @@ async def on_ready():
         elif message.content.startswith('s:say'):
             saymessage = message.content[len('$$say'):].strip()
             await client.send_message(message.channel, '{}'.format(saymessage))
+    
 #This is the bot's token
 client.run('(censored)')
