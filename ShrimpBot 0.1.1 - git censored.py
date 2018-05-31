@@ -161,4 +161,4 @@ async def on_ready():
             await client.send_message(message.channel, '{}'.format(saymessage))
     
 #This is the bot's token
-client.run('MzUxNTEwMDc1NTg1ODU1NDk4.DRiGIg.pXdnQmSFiVB3hv2OX0lkHE7q9mM')
+client.run('nope')
