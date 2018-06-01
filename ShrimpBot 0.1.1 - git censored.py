@@ -21,8 +21,8 @@ async def on_ready():
     print(client.user.id)
     print('------')
     print('Locked and loaded, ready to go!')
-    await client.change_presence(game=discord.Game(name='with python code | 0.1.1'))
-    await client.edit_profile(password=None, username= 'ShrimpBot 0.1.1')
+    await client.change_presence(game=discord.Game(name='with python code | 0.1.2'))
+    await client.edit_profile(password=None, username= 'ShrimpBot 0.1.2')
     
 #Commands and their responses
 
@@ -77,13 +77,16 @@ async def on_ready():
 
         elif message.content.startswith('s:information'):
             await client.send_message(message.channel, '''**ShrimpBot Information**
-                **Version** - 0.1.1 Alpha
+                **Version** - 0.1.2 Alpha
                 Created using Python and discord.py with no additional libraries
                 by Squid Grill.
                 This bullshit is licensed under the MIT license, feel free to do
                 whatever the hell you want with this, but don't blame me if
                 something goes wrong.
                 **Github** - https://github.com/Royce551/TestBot
+                **SERVICE NOTICE - Shrimpbot (at least, the Alpha version) will no longer be updated. This is because of several
+                problems with the bot. In the future, there might be a new version of the bot that is much more worthy of being
+                in a server. Thanks for having shrimpbot on your server.**
                 =========================================================
                 ''')
 
@@ -151,9 +154,12 @@ async def on_ready():
             await asyncio.sleep(1)
             await client.edit_message(tmp, 'Zero! The timer for "{}" is finished!'.format(countmessage))
         elif message.content.startswith('s:changelog'):
-            await client.send_message(message.channel, '''ShrimpBot 0.1.1 Changelog
+            await client.send_message(message.channel, '''ShrimpBot 0.1.2 Changelog
                 - Added a couple of new roleplay related commands
                 - Improved text and typography across various places.
+                **Shrimpbot 0.1.2 Changelog**
+                - Added deprecation notice to both the github and the bot itself. Thanks for using ShrimpBot.
+                (even though nobody used it in the first place)
                 =================================================================================
                 ''')
         elif message.content.startswith('s:say'):
