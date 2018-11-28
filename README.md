@@ -6,11 +6,11 @@ I might re-do this in the future.
 
 New in ShrimpBot 15...
  - Roleplay commands have returned!
-                - The bot will now send you a message if you try to run a command that it does not
+ - The bot will now send you a message if you try to run a command that it does not
                    recognize.
-                - Many major security issues with the bot have been fixed.
-                - Games have been added! The games currently available include random.
-                - Menus in the bot, such as help now look nicer.
+ - Many major security issues with the bot have been fixed.
+ - Games have been added! The games currently available include random.
+ - Menus in the bot, such as help now look nicer.
               
  New in 15.1...
  - uptime command
