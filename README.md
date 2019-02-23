@@ -1,11 +1,4 @@
-# TestBot 0.1
-Welcome to this Github repository!
-This is just a terribly made bot for shits and giggles that i'm working on, it isn't even doing the commands right.
-I might re-do this in the future
-
-You are free to copy this code, I literally do not give a crap.
-
-ShrimpBot is no longer being worked on, which is great. It was a buggy mess and was very suspectable to attacks. If you're using Shrimpbot or it's code, please don't. Therefore, Shrimpbot (or Testbot) is now indefinitely frozen at version 0.1.2, at least, until I get more competant at coding and I can produce a bot that is worthy of being used.
-
-New releases of Shrimpbot will no longer be hosted on GitHub, which is what I should have done in the first place, to be honest. DM me on discord (Royce551) if there are any problems or any of that sort of thing.
+# Shrimpbot Blueprint
+This is the development version of the bot.
+NOTE - This will be a bit behind the actual most recent development version of the bot.
 
